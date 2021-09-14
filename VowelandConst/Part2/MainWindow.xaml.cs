@@ -28,7 +28,7 @@ namespace Part2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string word = txtbox.Text;
-            vList.Items.Clear();
+            vList.Items.Clear(); // clearing the vowel and constatn list 
             cList.Items.Clear();
             // doing a loop statement that would sort vowels and constant 
             for (int i = 0; i < word.Length; i++)
@@ -43,7 +43,7 @@ namespace Part2
                 }
             }
 
-            txtbox.Clear();
+            txtbox.Clear(); //clearing the textbox 
 
         }
     }
